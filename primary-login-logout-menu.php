@@ -1,12 +1,12 @@
 <?php
 /**
  * Plugin Name: Primary Login Logout Menu
- * Plugin URI: http://brainstormforce.com/
- * Author: Brainstorm Force
- * Author URI: https://www.brainstormforce.com
- * Contributors: brainstormforce, Anil
+ * Plugin URI: http://aniljadhav.com/
+ * Author: Anil Jadhav
+ * Author URI: https://aniljadhav.com/
+ * Contributors: Anil
  * Version: 1.0.0
- * Description: This is an easy way to add Login/Logout link in primary with redirect user to specific URL, on login and logout. This plugin willl adds Settings page ( Under Setting ), for specifying redirect URL for login and logout.
+ * Description: This is an easy way to add Login/Logout link in primary menu with redirect user to specific URL, on login. This plugin willl adds Settings page ( Under Setting ), for specifying redirect URL for login.
  * Text Domain: bsf-primary-menu
  *
  * @package Primary-Login-Logout-Menu

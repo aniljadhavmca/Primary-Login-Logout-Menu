@@ -23,3 +23,12 @@ function bsf_loginout_menu_link( $items, $args ) {
    }
    return $items;
 }
+
+function redirect_non_admin_user() {
+	$login_url = get_option( 'login_url' );
+    if ( !defined( 'DOING_AJAX' ) && !current_user_can('administrator') ){
+        wp_redirect( site_url( $login_url ) );  exit;
+    } 
+}
+
+add_action( 'admin_init', 'redirect_non_admin_user' );
